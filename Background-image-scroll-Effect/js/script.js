@@ -1,6 +1,6 @@
 let bgimageel = document.getElementById("bg-image");
 
-window.addEventListener("scroll" , ()=> {
+window.addEventListener("scroll", () => {
     upadateImage()
 })
 
