@@ -9,7 +9,7 @@ let timeout;
 
 nextel.addEventListener("click", () => {
     currentimg++
-    clearTimeout(timeout)
+    clearTimeout(timeout);
     updateimg()
 })
 
