@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+h1 {
+    color: aqua;
+}
+
+.nav-link {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link :hover {
+    text-decoration: none;
+    color: red;
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.btn-btn-hero {
+    padding: 10px;
+    border-radius: 20px;
+    color: violet;
+    font-size: 25px;
+    cursor: pointer;
+}
